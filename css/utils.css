@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Faculty+Glyphic&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Faculty+Glyphic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --main-bg-color: rgb(77, 18, 18);
+    --font1:"Roboto", sans-serif;
+    --font2:"Baloo Bhaina 2", sans-serif;
+    --font3:"Raleway",sans-serif;
+    --font4:"Noto Serif",sans-serif;
+}
+.max_width_1{
+    max-width: 80vw;
+}
+.max_width_2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.btn{
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 14px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    /* color: red; */
+    background-color: var(--main-bg-color);
+    color: white;
+}
+.form-input{
+    padding: 5px 5px;
+    /* padding-top: 3px ; */
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+.font1{
+    font-family: var(--font1);
+}
+.font1{
+    font-family: var(--font2);
+}
